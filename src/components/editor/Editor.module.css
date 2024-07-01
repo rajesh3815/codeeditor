@@ -1,0 +1,43 @@
+.Container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background: #fcfeff;
+    justify-content: center;
+}
+.header{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.editorContainer {
+    border: 2px solid rgb(209 228 248);
+    width: 45%;
+    padding: 5px;
+    overflow-y: auto;
+    max-height: 70%;
+    border-radius: 7px;
+}
+
+textarea {
+    outline: 0;
+}
+
+/* design the scroll bar */
+.editorContainer::-webkit-scrollbar {
+    width: 8px;
+}
+
+.editorContainer::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 183, 197, 1);
+    border-radius: 6px;
+    border: 3px solid #fff;
+}
+
+.editorContainer::-webkit-scrollbar-thumb:hover {
+    background: rgb(127, 179, 205);
+}
