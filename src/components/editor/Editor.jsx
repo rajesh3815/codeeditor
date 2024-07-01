@@ -48,7 +48,7 @@ const Editory = () => {
           }}
         />
       </div>
-      <p>made by Rajesh❣️ <a href="https://github.com/rajesh3815/codeeditor.git" target="_blank" rel="noopener noreferrer">github</a></p>
+      <p>made by Rajesh❣️ <a href="https://github.com/rajesh3815/codeeditor.git" target="_blank" rel="noopener noreferrer">GitHub</a></p>
     </div>
   );
 };
